@@ -1,6 +1,6 @@
-public class controlFlow {
+public class controlFlowBasics {
 
-    static int ternary(int age){
+    static String ternary(int age){
         return age > 10 ? "Greater than 10" : "Not greater than 10";
     }
     public static void main(String[] args){
