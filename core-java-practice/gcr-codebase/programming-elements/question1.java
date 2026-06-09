@@ -7,12 +7,13 @@ public class question1{
     public static void annualBonusCalculate(double salary){
         
         annualBonus = (int) (0.12 * salary);
-    
+        
     }
 
     public static void formattedPrint(String name, int age, int rank, double salary, float membershipFee){
         System.out.println(name);
         System.out.println(age);
+        System.out.println(rank);
         System.out.println(salary);
         System.out.println(membershipFee);
         System.out.println(annualBonus);
@@ -29,7 +30,7 @@ public class question1{
         String membershipFee = args[4];
         Float m = Float.parseFloat(membershipFee);
         
-        //annualBonusCalculate(d);
+        annualBonusCalculate(d);
         formattedPrint(name,i,j,d,m);
     }
 }
