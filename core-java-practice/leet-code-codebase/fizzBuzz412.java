@@ -7,6 +7,7 @@ public class fizzBuzz412{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         System.out.println(fizzBuzzCalc(n));
+        sc.close();
     }
     public static List<String> fizzBuzzCalc(int n) {
         List<String> answer = new ArrayList<>();

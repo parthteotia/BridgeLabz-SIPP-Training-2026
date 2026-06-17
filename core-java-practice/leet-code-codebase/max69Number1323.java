@@ -22,5 +22,6 @@ public class max69Number1323 {
             n = (s * count) + r;
         }
         System.out.println(n);
+        sc.close();
     }
 }

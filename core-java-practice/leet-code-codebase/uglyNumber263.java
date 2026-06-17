@@ -6,6 +6,7 @@ class uglyNumber263 {
         int n = sc.nextInt();
         uglyNumber263 obj = new uglyNumber263();
         System.out.println(obj.isUgly(n));
+        sc.close();
     }
     public boolean isUgly(int n) {
         if(n<=0){

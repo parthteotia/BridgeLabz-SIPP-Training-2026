@@ -32,5 +32,6 @@ public class question1 {
         
         taxBracket(income);
         taxTotal(income);
+        sc.close();
     }
 }

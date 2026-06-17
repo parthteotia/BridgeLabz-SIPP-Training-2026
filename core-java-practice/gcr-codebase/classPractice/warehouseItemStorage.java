@@ -19,6 +19,7 @@ public class warehouseItemStorage {
 
         int[][] matrix = {{1,2,3},{4,5,6}};
         transpose(matrix);
+        sc.close();
     }
     static void findMinMax(int[] stock){
         int min = stock[0];
