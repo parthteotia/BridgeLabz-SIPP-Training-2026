@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class areaTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double base = sc.nextFloat();
-        double height = sc.nextFloat();
+        double base = sc.nextDouble();
+        double height = sc.nextDouble();
         double base_inch = base/2.54;
         double height_inch = height/2.54;
         double area_cm = base*height*1/2;
